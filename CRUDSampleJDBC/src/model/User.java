@@ -2,6 +2,8 @@ package model;
 
 @Entity
 public class User {
+
+	@Id
 	int id;
 	String fullname, username, password;
 	
